@@ -1,4 +1,4 @@
-import { revertString } from "../../utils/revertString.js";
+const revertString = require("../../utils/revertString");
 
 describe("tests for revertString function", () => {
   it("should reverse string", () => expect(revertString("abc")).toBe("cba"));
